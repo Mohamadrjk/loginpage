@@ -34,9 +34,9 @@ function InputArea(props) {
             className="absolute right-0 top-0 cursor-pointer "
           >
             {passwordType == "text" ? (
-              <Image width={25} height={25} src={"/assets/hide.png"} />
+              <Image width={25} height={25} src={"/assets/hide.png"} alt="hide icon" />
             ) : (
-              <Image width={25} height={25} src={"/assets/show.png"} />
+              <Image width={25} height={25} src={"/assets/show.png"} alt="show icon"  />
             )}
           </span>
         )}

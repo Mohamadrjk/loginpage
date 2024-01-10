@@ -33,7 +33,6 @@ function LoginForm() {
     }
   };
   useEffect(() => {
-    console.log(PasswordError, EmailError);
     if (PasswordError == true || EmailError == true) {
       setisDisabled(true);
     } else {
